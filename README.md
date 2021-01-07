@@ -9,5 +9,7 @@
 코드 참고 : [prforest.github.io](prforest.github.io) - 삼성해피트리 / [카카오 기술 블로그](https://kakao.github.io)
 
 이 코드는 홍보숲의 github.io페이지가 GNU 라이선스이기에 공개되었습니다.
+
 이 코드를 사용하기 위해서는 이 페이지의 원작 소스인 홍보숲의 라이선스(GNU)에 따라서
+
 수정한 SRC 혹은 GPL SRC를 활용한 소프트웨어 모두 GPL로 공개, 라이선스 및 저작권 명시, 변경사항 안내를 해야 합니다.
