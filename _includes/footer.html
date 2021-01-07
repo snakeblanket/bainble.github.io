@@ -1,0 +1,24 @@
+<div id="footer" class="container-fluid">
+    <ul id="links">
+        {% if site.github_url %}
+        <li>
+            <a id="link-github" href="http://github.com/{{ site.github_url.username }}" target="_blank">
+                <span class="sr-only">github</span>
+            </a>
+        </li>
+        {% endif %}
+        {% if site.twitter %}
+        <li>
+            <a id="link-twitter" href="http://twitter.com/{{ site.twitter.username }}" target="_blank">
+                <span class="sr-only">twitter</span>
+            </a>
+        </li>
+        {% endif %}
+    </ul>
+    <ul id="footer-menu">
+        <li><a href="//bainble.ga">Bainble0211 공식 홈페이지</a></li>
+    </ul>
+    <p id="copyright">
+        © 2020-2021 Bainble0211, All rights reserved.
+    </p>
+</div><!--#footer-->

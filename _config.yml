@@ -1,0 +1,58 @@
+title: Bainble0211 블로그
+email: bainble0211@bainble.ga
+description: Bainble0211의 공식 블로그입니다!
+baseurl: ''
+url: 'https://bainble.ga'
+timezone: Asia/Seoul 
+
+repository: bainble0211-6109/bainble.github.io
+
+permalink: /:year/:month/:day/:title/
+
+excerpt_separator: <!--more-->
+
+markdown: kramdown
+
+krandown:
+  input: GFM
+  highlighter: rouge
+
+plugins:
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: '/page/:num/'
+
+collections:
+  authors:
+    output: true
+    permalink: /authors/:path/
+  tags:
+    output: true
+    permalink: /tags/:path/
+
+defaults:
+  - scope:
+      path: ''
+      type: authors
+    values:
+      layout: author
+  - scope:
+      path: ''
+      type: tags
+    values:
+      layout: tag
+
+exclude: [README.md, Gemfile, Gemfile.lock]
+
+keep_files: [assets, files]
+github: [metadata]
+
+author: support@bainble.ga
+image: '/assets/images/default_blog_cover.jpg'
+asset_url: /assets
+
+github_url:
+  username: bainble0211-6109
+twitter:
+  username: bainble0211
