@@ -1,4 +1,4 @@
-[bainble.github.io](bainble.github.io)
+[https://blog.bainble.ga](https://blog.bainble.ga)
 
 이 블로그는 [카카오 기술 블로그](https://kakao.github.io) 오픈 소스를 사용하여 제작되었습니다.
 
